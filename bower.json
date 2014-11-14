@@ -1,0 +1,29 @@
+{
+    "name": "dust_issue_sample",
+    "version": "0.0.1",
+    "dependencies": {
+        "angular": "latest"
+    },
+    "private": true,
+    "homepage": "https://github.com/trisys3/dust_issue_sample",
+    "authors": [
+        {
+            "name": "Sean Moran",
+            "email": "sean_r_moran@msn.com"
+        }
+    ],
+    "main": "frontend",
+    "moduleType": [
+        "globals",
+        "node"
+    ],
+    "ignore": [
+        "**/.*",
+        "node_modules",
+        "frontend/libs"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:trisys3/dust_issue_sample.git"
+    }
+}
