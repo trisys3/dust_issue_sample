@@ -1,0 +1,29 @@
+{
+    "name": "dust_issue_sample",
+    "version": "0.0.1",
+    "private": true,
+    "author": {
+        "name": "Sean Moran",
+        "email": "sean_r_moran@msn.com"
+    },
+    "dependencies": {
+        "express": "latest",
+        "body-parser": "latest",
+        "method-override": "latest",
+        "morgan": "latest",
+        "consolidate": "latest",
+        "dustjs-linkedin": "latest",
+        "dustjs-helpers": "latest",
+        
+        "bower": "latest"
+    },
+    "description": "demonstration of dust issue with Angular's ngModel that I came across",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/trisys3/dust_issue_sample.git"
+    },
+    "bugs": {
+        "url": "https://github.com/trisys3/dust_issue_sample/issues"
+    },
+    "homepage": "https://github.com/trisys3/dust_issue_sample"
+}
