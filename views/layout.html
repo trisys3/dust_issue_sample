@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Dust ngModel Issue</title>
+        <meta charset="utf-8" />
+    </head>
+    <body>
+        <form data-ng-app="issue_form">
+            <fieldset data-ng-controller="baseCtrl">
+                <legend>Base Layout</legend>
+                <input type="text" data-ng-model="dust_issue.base.works" />
+                <button type="button" data-ng-click="getData()">Log Data</button>
+                <input type="text" data-ng-model="dust_issue.base.works" />
+            </fieldset>
+            {>nested_breaks_partial.html/}
+            {>nested_works_partial.html/}
+        </form>
+        <script src="issueApp.js"></script>
+    </body>
+</html>
