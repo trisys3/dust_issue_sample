@@ -6,6 +6,6 @@ router = express.Router();
 dustIssue = require('../controllers/dust_issue.js');
 
 // route for the main page
-router.route('/dust_issue').get(dust_issue.main);
+router.route('/dust_issue').get(dustIssue.main);
 
 module.exports = router;
